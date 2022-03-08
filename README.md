@@ -142,3 +142,41 @@ GPU-clock        //Hz
 0x124F800  //19200000
 ```
 
+## Releases
+```
+GhiffaryR Overclock Kernel v3 features :
+• Big cluster CPU overclock up to 1.65 Ghz
+• Little cluster CPU overclock up to 1.38 Ghz
+• GPU overclock up to 600 Mhz
+• GPU underclock down to 160 Mhz
+• Buswidth improvements to 16/32 bits
+• Display refresh rate overclock to 65 Hz
+• Enabled double tap to wake
+What changed?
+• Reboot recovery fixed
+
+GhiffaryR Overclock Kernel v4-r2 features :
+• Big cluster CPU overclock up to 1.65 Ghz
+• Little cluster CPU overclock up to 1.38 Ghz
+• GPU overclock up to 600 Mhz
+• GPU underclock down to 160 Mhz
+• Buswidth improvements to 16/32 bits
+• Display refresh rate overclock to 65 Hz
+• Enabled double tap to wake
+• Fast charging up to 2400 mA
+• USB fast charging up to 900 mA
+What changed?
+• Cooler temperature
+• Reduced NOM+ and TURBO GPU clock speed, but keep SUPER TURBO clock @600 mhz
+
+GhiffaryR Overclock Kernel v5-r4 features :
+• GPU overclock up to 550 Mhz
+• GPU underclock down to 160 Mhz
+• Buswidth improvements to 16/32 bits
+• Display refresh rate overclock to 65 Hz
+• Enabled double tap to wake
+• Fast charging up to 2400 mA
+• USB fast charging up to 900 mA
+What changed?
+• SUPER TURBO GPU @550 Mhz clock variant
+```
