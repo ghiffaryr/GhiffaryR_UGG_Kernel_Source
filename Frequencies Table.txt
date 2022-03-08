@@ -1,40 +1,3 @@
-# GhiffaryR UGG Kernel Source Code
-
-Device configuration for Xiaomi Redmi Note 5A Prime/Y1 (_ugg_)
-=====================================================
-
-Basic   | Spec Sheet
--------:|:-------------------------
-CPU     | Octacore-core 1.4 GHz Cortex-A53
-CHIPSET | Qualcomm MSM8940 Snapdragon 435
-GPU     | Adreno 505
-Memory  | 3/4 GB
-Shipped Android Version | Android 7.1.2 with MIUI 8
-Storage | 32/64 GB
-MicroSD | Up to 256 GB (dedicated)
-Battery | 3080 mAh (non-removable)
-Dimensions | 153 x 76.2 x 7.6 mm
-Display | 720 x 1280 pixels, 5.5" IPS
-Rear Camera  | 13.0 MP, LED flash
-Front Camera | 16.0 MP
-Release Date | November 2017
-
-![Xiaomi Redmi Note 5A / Y1 Prime](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-5a-1.jpg "Xiaomi Redmi Note 5A/Y1 Prime")
-
-## How to Compile
-```
-$ git clone <github tree source>.git -g <branch>
-$ export CROSS_COMPILE=$(pwd)/bin/aarch64-linux-gnu-
-$ export ARCH=arm64 && export SUBARCH=arm64
-$ make clean
-$ make mrproper
-$ mkdir Out
-$ make O=Out ugg_defconfig
-$ make O=Out -j$(nproc --all)
-```
-
-## Frequencies Table
-```
 hex //dec
 
 CPU-clock calculation
@@ -121,6 +84,7 @@ cpu-to-dev-map-4
 0x61A80 //400000
 0x82355 //533333
 
+
 GPU-clock        //Hz
 0x26BE3680 //650000000 got artifact
 0x2540BE40 //625000000 got artifact
@@ -140,5 +104,4 @@ GPU-clock        //Hz
 0xCDFE600  //216000000
 0x9896800  //160000000
 0x124F800  //19200000
-```
 
